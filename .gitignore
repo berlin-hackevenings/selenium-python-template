@@ -1,0 +1,7 @@
+bin
+lib
+include
+webdriver/*
+
+**__pycache__**
+geckodriver.log
