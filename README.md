@@ -3,13 +3,13 @@
 ## Instructions
 
 This is a template repository:
-It means that you can create your own repository from this template with the same files and folder structure.
+you use it to create your own repository, copying the files and folder structure from this template. 
 
 To create your own repository find the button "Use this template" above the file list and click it.
-You will be asked to give your repo a name (but you can also use the name of the template, as the new repo will be created in your own Github account).
-You can also chose from the same options as if you were creating a new repository from scratch.
+You will be asked to give your repo a name (you can also use the name of the template, as the new repo will be created in your own GitHub account).
+You can also customise your repositories with the same options, as if you were creating a new repository from scratch.
 
-For detailed instructions with screen shots check out the [Github docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+For detailed instructions with screen shots check out the [GitHub docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
 After you have created your own repository, you are ready to get started with the next steps below!
 
@@ -21,7 +21,7 @@ To allow your application to control the browser you need to have browser-specif
 **This won't work on Windows unfortunately**
 Selenium works with a range of different browsers. The inital test in this project uses Firefox.
 
-Go to the [Downloads Page for Geckodriver](https://github.com/mozilla/geckodriver/releases) and select the latest versin for your Operating System.
+Go to the [Downloads Page for Geckodriver](https://github.com/mozilla/geckodriver/releases) and select the latest version for your Operating System.
 
 Download the right version of Geckodriver and move it to the `webdriver` folder of this project.
 
@@ -34,7 +34,7 @@ Go to the [Downloads Page for Chromedriver](https://chromedriver.chromium.org/do
 
 Download the right version of Chromedriver and move it to the `webdriver` folder of this project.
 As the example test is using Firefox, you will have to adjust it to work with Chrome as well.
-The command to run the tests works the same way for both browsers, so you can again copy it from below.
+The command to run the tests works the same way for both browsers, so you can also copy it from below.
 
 ## Set up all other libraries
 
@@ -56,7 +56,7 @@ Run the following command in your console:
 PATH=$PATH:`pwd`/webdriver python -m unittest
 ```
 
-This will execute all test files in `/test` - in this case only the example test file.
+This will execute all test files in `/test` - in this case, only the example test file.
 You should see the browser start, navigate to a website and also the output from the successful test run in the console.
 
 
@@ -68,4 +68,4 @@ You can use the existing test as the basis.
 To learn more about the commands to control the Browser with selenium, check the [Python docs for Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html).
 There is also a Tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
 
-If you need more info about creating tests in python with the unittest library, check the [docs for unittest](https://docs.python.org/3/library/unittest.html).
+If you need more info about creating tests in python with the unit test library, check the [docs for unittest](https://docs.python.org/3/library/unittest.html).
