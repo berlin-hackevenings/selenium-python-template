@@ -5,11 +5,11 @@
 This is a template repository:
 you can use it to create your own repository, copying the files and folder structure from this template. 
 
-To create your own repository find the button "Use this template" above the file list and click it.
+To create your own repository, find the button "Use this template" above the file list and click it.
 You will be asked to give your repo a name (you can also use the name of the template, as the new repo will be created in your own GitHub account).
 You can also customise your repositories with the same options as if you were creating a new repository from scratch.
 
-For detailed instructions with screenshots check out the [GitHub docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+For detailed instructions on creating a template (including screenshots) please check out the [GitHub docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
 After you have created your own repository, you are ready to get started with the next steps below!
 
@@ -62,10 +62,10 @@ You should see the browser start, navigate to a website, and also the output fro
 
 ## Add your own tests!
 
-Create new files in the `/tests` folder for your own test cases. Note that all test files should start with `test_`.
-You can use the existing test as the basis.
+Create new files in the `/tests` folder with your own test cases. Note that all test files should start with `test_`.
+You can also use the existing test as the basis for future tests.
 
 To learn more about the commands to control the browser with selenium, check the [Python docs for Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html).
-There is also a tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
+There is also a useful tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
 
-If you need more info about creating tests in python with the unit test library, check the [docs for unittest](https://docs.python.org/3/library/unittest.html).
+If you need more information about creating tests in python with the unit test library, check the [docs for unittest](https://docs.python.org/3/library/unittest.html).
