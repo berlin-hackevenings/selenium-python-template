@@ -3,7 +3,7 @@
 ## Instructions
 
 This is a template repository:
-you use it to create your own repository, copying the files and folder structure from this template. 
+you can use it to create your own repository, copying the files and folder structure from this template. 
 
 To create your own repository find the button "Use this template" above the file list and click it.
 You will be asked to give your repo a name (you can also use the name of the template, as the new repo will be created in your own GitHub account).
@@ -32,9 +32,9 @@ You can copy the whole command including the PATH from below.
 
 Go to the [Downloads Page for Chromedriver](https://chromedriver.chromium.org/downloads) and select the appropriate version for your Chrome Installation and Operating System.
 
-Download the right version of Chromedriver and move it to the `webdriver` folder of this project.
+Download the correct version of Chromedriver and move it to the `webdriver` folder of this project.
 As the example test is using Firefox, you will have to adjust it to work with Chrome as well.
-The command to run the tests works the same way for both browsers, so you can also copy it from below.
+Note: the command to run the tests works the same way for both browsers, so you can also copy it from below.
 
 ## Set up all other libraries
 
@@ -56,7 +56,7 @@ Run the following command in your console:
 PATH=$PATH:`pwd`/webdriver python -m unittest
 ```
 
-This will execute all test files in `/test` - in this case, only the example test file.
+This will execute all test files in `/test` - which in this case is only the example test file.
 You should see the browser start, navigate to a website, and also the output from the successful test run in the console.
 
 
@@ -65,7 +65,7 @@ You should see the browser start, navigate to a website, and also the output fro
 Create new files in the `/tests` folder for your own test cases. Note that all test files should start with `test_`.
 You can use the existing test as the basis.
 
-To learn more about the commands to control the Browser with selenium, check the [Python docs for Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html).
-There is also a Tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
+To learn more about the commands to control the browser with selenium, check the [Python docs for Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html).
+There is also a tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
 
 If you need more info about creating tests in python with the unit test library, check the [docs for unittest](https://docs.python.org/3/library/unittest.html).
