@@ -68,4 +68,4 @@ You can also use the existing test as the basis for future tests.
 To learn more about the commands to control the browser with selenium, check the [Python docs for Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html).
 There is also a useful tutorial on [Browser Manipulation](https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/) in different programming languages.
 
-If you need more information about creating tests in python with the unit test library, check the [docs for unittest](https://docs.python.org/3/library/unittest.html).
+If you need more information about creating tests in python with the unittest library, check the [docs for unittest](https://docs.python.org/3/library/unittest.html).
