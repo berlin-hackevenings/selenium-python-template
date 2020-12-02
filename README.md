@@ -7,9 +7,9 @@ you use it to create your own repository, copying the files and folder structure
 
 To create your own repository find the button "Use this template" above the file list and click it.
 You will be asked to give your repo a name (you can also use the name of the template, as the new repo will be created in your own GitHub account).
-You can also customise your repositories with the same options, as if you were creating a new repository from scratch.
+You can also customise your repositories with the same options as if you were creating a new repository from scratch.
 
-For detailed instructions with screen shots check out the [GitHub docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+For detailed instructions with screenshots check out the [GitHub docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
 After you have created your own repository, you are ready to get started with the next steps below!
 
@@ -18,8 +18,8 @@ After you have created your own repository, you are ready to get started with th
 
 To allow your application to control the browser you need to have browser-specific WebDriver binaries installed.
 
-**This won't work on Windows unfortunately**
-Selenium works with a range of different browsers. The inital test in this project uses Firefox.
+**Unfortunately this will not work on Windows**
+Selenium works with a range of different browsers; the inital test in this project uses Firefox.
 
 Go to the [Downloads Page for Geckodriver](https://github.com/mozilla/geckodriver/releases) and select the latest version for your Operating System.
 
@@ -57,7 +57,7 @@ PATH=$PATH:`pwd`/webdriver python -m unittest
 ```
 
 This will execute all test files in `/test` - in this case, only the example test file.
-You should see the browser start, navigate to a website and also the output from the successful test run in the console.
+You should see the browser start, navigate to a website, and also the output from the successful test run in the console.
 
 
 ## Add your own tests!
